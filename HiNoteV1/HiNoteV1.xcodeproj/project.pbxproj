@@ -79,6 +79,7 @@
 		C1D5AF6A257C99C100DAE46A = {
 			isa = PBXGroup;
 			children = (
+				C1D5AF76257C99C100DAE46A /* AppDelegate.swift */,
 				C1D5AF75257C99C100DAE46A /* HiNoteV1 */,
 				C1D5AF8C257C99C300DAE46A /* HiNoteV1Tests */,
 				C1D5AF97257C99C300DAE46A /* HiNoteV1UITests */,
@@ -99,7 +100,6 @@
 		C1D5AF75257C99C100DAE46A /* HiNoteV1 */ = {
 			isa = PBXGroup;
 			children = (
-				C1D5AF76257C99C100DAE46A /* AppDelegate.swift */,
 				C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */,
 				C1D5AF7A257C99C100DAE46A /* ViewController.swift */,
 				C1D5AF7C257C99C100DAE46A /* Main.storyboard */,
