@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8764EC44257FB09200C7096B /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764EC43257FB09200C7096B /* MainScreenViewController.swift */; };
-		8764EC45257FB09200C7096B /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764EC43257FB09200C7096B /* MainScreenViewController.swift */; };
-		8764EC46257FB09300C7096B /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764EC43257FB09200C7096B /* MainScreenViewController.swift */; };
 		C1D5AF77257C99C100DAE46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF76257C99C100DAE46A /* AppDelegate.swift */; };
 		C1D5AF79257C99C100DAE46A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */; };
 		C1D5AF7B257C99C100DAE46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF7A257C99C100DAE46A /* ViewController.swift */; };
@@ -38,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8764EC43257FB09200C7096B /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		C1D5AF73257C99C100DAE46A /* HiNoteV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiNoteV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D5AF76257C99C100DAE46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,7 +102,6 @@
 				C1D5AF76257C99C100DAE46A /* AppDelegate.swift */,
 				C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */,
 				C1D5AF7A257C99C100DAE46A /* ViewController.swift */,
-				8764EC43257FB09200C7096B /* MainScreenViewController.swift */,
 				C1D5AF7C257C99C100DAE46A /* Main.storyboard */,
 				C1D5AF7F257C99C300DAE46A /* Assets.xcassets */,
 				C1D5AF81257C99C300DAE46A /* LaunchScreen.storyboard */,
@@ -264,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D5AF7B257C99C100DAE46A /* ViewController.swift in Sources */,
-				8764EC44257FB09200C7096B /* MainScreenViewController.swift in Sources */,
 				C1D5AF77257C99C100DAE46A /* AppDelegate.swift in Sources */,
 				C1D5AF79257C99C100DAE46A /* SceneDelegate.swift in Sources */,
 			);
@@ -275,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D5AF8E257C99C300DAE46A /* HiNoteV1Tests.swift in Sources */,
-				8764EC45257FB09200C7096B /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D5AF99257C99C300DAE46A /* HiNoteV1UITests.swift in Sources */,
-				8764EC46257FB09300C7096B /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
