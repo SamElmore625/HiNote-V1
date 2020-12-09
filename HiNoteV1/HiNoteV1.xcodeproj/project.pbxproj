@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8764EC492581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
+		8764EC4A2581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
+		8764EC4B2581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
 		C1D5AF77257C99C100DAE46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF76257C99C100DAE46A /* AppDelegate.swift */; };
 		C1D5AF79257C99C100DAE46A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */; };
 		C1D5AF7B257C99C100DAE46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF7A257C99C100DAE46A /* ViewController.swift */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8764EC482581037A00C7096B /* Settings Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Settings Storyboard.storyboard"; sourceTree = "<group>"; };
 		C1D5AF73257C99C100DAE46A /* HiNoteV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiNoteV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D5AF76257C99C100DAE46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8764EC47258102EA00C7096B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5AF7C257C99C100DAE46A /* Main.storyboard */,
+				8764EC482581037A00C7096B /* Settings Storyboard.storyboard */,
+				C1D5AF81257C99C300DAE46A /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		C1D5AF6A257C99C100DAE46A = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +113,11 @@
 		C1D5AF75257C99C100DAE46A /* HiNoteV1 */ = {
 			isa = PBXGroup;
 			children = (
+				8764EC47258102EA00C7096B /* StoryBoards */,
 				C1D5AF76257C99C100DAE46A /* AppDelegate.swift */,
 				C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */,
 				C1D5AF7A257C99C100DAE46A /* ViewController.swift */,
-				C1D5AF7C257C99C100DAE46A /* Main.storyboard */,
 				C1D5AF7F257C99C300DAE46A /* Assets.xcassets */,
-				C1D5AF81257C99C300DAE46A /* LaunchScreen.storyboard */,
 				C1D5AF84257C99C300DAE46A /* Info.plist */,
 			);
 			path = HiNoteV1;
@@ -234,6 +247,7 @@
 				C1D5AF83257C99C300DAE46A /* LaunchScreen.storyboard in Resources */,
 				C1D5AF80257C99C300DAE46A /* Assets.xcassets in Resources */,
 				C1D5AF7E257C99C100DAE46A /* Main.storyboard in Resources */,
+				8764EC492581037A00C7096B /* Settings Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8764EC4A2581037A00C7096B /* Settings Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8764EC4B2581037A00C7096B /* Settings Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
